@@ -1,0 +1,24 @@
+{
+  "name": "diabetic_foot",
+  "version": "1.0.0",
+  "description": "Protocol of Diabetic Foot management",
+  "main": "./main.js",
+  "scripts": {
+    "start": "electron .",
+    "babel": "babel",
+    "webpack": "webpack"
+
+  },
+  "author": "Mohamed Galal",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "electron": "~1.7.8",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "webpack": "^3.6.0"
+  }
+}
