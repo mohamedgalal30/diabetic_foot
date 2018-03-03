@@ -24,7 +24,7 @@ window.getPatients = function getPatients(str, cb) {
 
   }
   // Connection URL
-  var mongoUrl = 'mongodb://localhost:27017/diabetic_foot';
+  var mongoUrl = 'mongodb://mongo-server:27017/diabetic_foot';
   // Use connect method to connect to the Server
   MongoClient.connect(mongoUrl, function (err, db) {
     console.log("Connected correctly to server");
